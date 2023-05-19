@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+[[mods]]
+modId="jaiea"
+version="${file.jarVersion}"
+displayName="JAIEA"
+description='''
+Just another boring Immersive Engineering Addon
+'''
+[[dependencies.jaiea]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43.2.0,44]" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="immersiveengineering"
+    mandatory=true
+    versionRange="[1.19.2,1.19.3]"
+    ordering="NONE"
+    side="BOTH"
