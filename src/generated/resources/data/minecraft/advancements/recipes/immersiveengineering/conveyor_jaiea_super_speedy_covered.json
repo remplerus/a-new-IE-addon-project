@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:conveyor_jaiea_super_speedy_covered"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_conveyor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersiveengineering:conveyor_jaiea_super_speedy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_conveyor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:conveyor_jaiea_super_speedy_covered"
+    ]
+  }
+}

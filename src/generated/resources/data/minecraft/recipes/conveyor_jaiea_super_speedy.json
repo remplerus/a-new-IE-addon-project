@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:conveyor_jaiea_speedy"
+    },
+    "p": {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+    }
+  },
+  "pattern": [
+    " c ",
+    "cpc",
+    " c "
+  ],
+  "result": {
+    "count": 4,
+    "item": "immersiveengineering:conveyor_jaiea_super_speedy"
+  }
+}

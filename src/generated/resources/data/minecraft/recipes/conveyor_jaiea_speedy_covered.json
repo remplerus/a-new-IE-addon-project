@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:conveyor_jaiea_speedy"
+    },
+    "s": {
+      "tag": "immersiveengineering:scaffoldings/steel"
+    }
+  },
+  "pattern": [
+    "s",
+    "c"
+  ],
+  "result": {
+    "item": "immersiveengineering:conveyor_jaiea_speedy",
+    "nbt": {
+      "defaultCover": "immersiveengineering:steel_scaffolding_standard"
+    }
+  }
+}
